@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>scope</key>
+	<string>text.xml.xsl</string>
+	<key>content</key>
+	<string>&lt;xsl:copy ${1:use-attribute-sets="${2:list-of-QNames}"}&gt;
+	${0}
+&lt;/xsl:copy&gt;</string>
+	<key>name</key>
+	<string>copy</string>
+	<key>tabTrigger</key>
+	<string>copy</string>
+	<key>uuid</key>
+	<string>B6951038-468B-4159-8CED-65E4166A2D95</string>
+</dict>
+</plist>

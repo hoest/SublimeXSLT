@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>scope</key>
+	<string>text.xml.xsl</string>
+	<key>content</key>
+	<string>&lt;xsl:value-of select="${1:Expr}"${2: disable-output-escaping="${3:«yes»|«no»}"}/&gt;</string>
+	<key>name</key>
+	<string>value-of</string>
+	<key>tabTrigger</key>
+	<string>value</string>
+	<key>uuid</key>
+	<string>3790B249-5475-4638-A674-3FD4ECC967DF</string>
+</dict>
+</plist>

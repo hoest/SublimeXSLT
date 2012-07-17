@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>scope</key>
+	<string>text.xml.xsl</string>
+	<key>content</key>
+	<string>&lt;xsl:decimal-format
+	${1:name="${2:QName}"
+	}${3:decimal-separator="${4:char}"
+	}${5:grouping-separator="${6:char}"
+	}${7:infinity="${8:string}"
+	}${9:minus-sign="${10:char}"
+	}${11:NaN="${12:string}"
+	}${13:percent="${14:char}"
+	}${15:per-mile="${16:char}"
+	}${17:zero-digit="${18:char}"
+	}${19:digit="${20:char}"
+	}${21:pattern-separator="${22:char}"}/&gt;</string>
+	<key>name</key>
+	<string>decimal-format</string>
+	<key>tabTrigger</key>
+	<string>decimal</string>
+	<key>uuid</key>
+	<string>4CC00B22-D855-49C2-AECF-DCE6F796AD90</string>
+</dict>
+</plist>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>scope</key>
+	<string>text.xml.xsl</string>
+	<key>content</key>
+	<string>&lt;xsl:number
+	level="${1:«single»|«multiple»|«any»}"
+	count="${2:Pattern}"
+	from="${3:Pattern}"
+	value="${4:Expr}"
+	format="${5:format-string}"
+	lang="${6:language-code}"
+	letter-value="${7:«alphabetic»|«traditional»}"
+	grouping-separator="${8:char}"
+	grouping-size="${9:number}"/&gt;</string>
+	<key>name</key>
+	<string>number</string>
+	<key>tabTrigger</key>
+	<string>number</string>
+	<key>uuid</key>
+	<string>571F2B6B-E44C-4295-85F5-F0FF94CDB7FC</string>
+</dict>
+</plist>

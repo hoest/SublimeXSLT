@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>scope</key>
+	<string>text.xml.xsl</string>
+	<key>content</key>
+	<string>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;xsl:stylesheet 
+	version="1.0" 
+	xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
+	xmlns:exsl="http://exslt.org/common" 
+	${1:xmlns:date="http://exslt.org/dates-and-times"
+	}${2:xmlns:dynamic="http://exslt.org/dynamic"
+	}${3:xmlns:math="http://exslt.org/math" 
+	}${4:xmlns:regexp="http://exslt.org/regular-expressions" 
+	}${5:xmlns:sets="http://exslt.org/sets" 
+	}${6:xmlns:str="http://exslt.org/strings" 
+	}extension-element-prefixes="exsl${7: date}${8: dynamic}${9: math}${10: regexp}${11: sets}${12: str}"
+&gt;
+
+&lt;xsl:output method="xml" version="1.0" encoding="UTF-8" indent="yes"/&gt;
+
+&lt;xsl:template match="${13:Expr}"&gt;
+	${14}
+&lt;/xsl:template&gt;
+${15}
+&lt;/xsl:stylesheet&gt;</string>
+	<key>name</key>
+	<string>stylesheet exslt all</string>
+	<key>tabTrigger</key>
+	<string>style</string>
+	<key>uuid</key>
+	<string>FACB9763-C4F6-433D-9201-B1D76F40C1C8</string>
+</dict>
+</plist>

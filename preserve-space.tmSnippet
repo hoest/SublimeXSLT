@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>scope</key>
+	<string>text.xml.xsl</string>
+	<key>content</key>
+	<string>&lt;xsl:preserve-space elements="${1:list-of-NameTests}"/&gt;</string>
+	<key>name</key>
+	<string>preserve-space</string>
+	<key>tabTrigger</key>
+	<string>preserve</string>
+	<key>uuid</key>
+	<string>C4A6F08A-4B86-4984-9CB2-CF2C641A9FE6</string>
+</dict>
+</plist>

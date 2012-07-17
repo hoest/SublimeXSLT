@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>scope</key>
+	<string>text.xml.xsl</string>
+	<key>content</key>
+	<string>&lt;xsl:document
+	href="${1:url}"
+	method="${2:«xml»|«html»|«text»|«QName»}" 
+	version="${3:1.0}" 
+	encoding="${4:UTF-8}" 
+	indent="${5:«yes»|«no»}"
+	${6:omit-xml-declaration="${7:«yes»|«no»}"
+	}${8:standalone="${9:«yes»|«no»}"
+	}${10:media-type="${11:application/xml}"
+	}${12:doctype-public="${13:-//W3C//DTD XHTML 1.0 Strict//EN}"
+	}${14:doctype-system="${15:http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd}"
+	}${16:cdata-section-elements="${17:list-of-QNames}"}
+&gt;
+	${0}
+&lt;/xsl:document&gt;</string>
+	<key>name</key>
+	<string>document...</string>
+	<key>tabTrigger</key>
+	<string>document</string>
+	<key>uuid</key>
+	<string>05A8E380-C820-407E-9C53-D789782110A3</string>
+</dict>
+</plist>

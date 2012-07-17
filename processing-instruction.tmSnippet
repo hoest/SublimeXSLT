@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>scope</key>
+	<string>text.xml.xsl</string>
+	<key>content</key>
+	<string>&lt;xsl:processing-instruction name="{$1:NCName}"&gt;
+	${1}
+&lt;/xsl:processing-instruction&gt;</string>
+	<key>name</key>
+	<string>processing-instruction</string>
+	<key>tabTrigger</key>
+	<string>processing</string>
+	<key>uuid</key>
+	<string>9BF37CED-24E0-4AAD-92D6-847E24E25BA8</string>
+</dict>
+</plist>

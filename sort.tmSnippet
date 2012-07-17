@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>scope</key>
+	<string>text.xml.xsl</string>
+	<key>content</key>
+	<string>&lt;xsl:sort select="${1:Expr}"
+	${2:data-type="${3:«text»|«number»|QName}"
+	}${4:order="${5:«ascending»|«descending»}"
+	}${6:case-order="${7:«upper-first»|«lower-first»}"
+	}${8:lang="${9:lang-code}"}/&gt;</string>
+	<key>name</key>
+	<string>sort</string>
+	<key>tabTrigger</key>
+	<string>sort</string>
+	<key>uuid</key>
+	<string>7B87AA61-ECA0-48B8-A209-C772408EE1A8</string>
+</dict>
+</plist>

@@ -1,7 +1,9 @@
 SublimeXSLT
 ===========
 
-This package is deprecated. Use [Emmet](http://www.emmet.io/) instead. It has a lot of snippets for
-XSLT too, and much more!!!
+SublimeText Snippets for XSLT (originated from TextMate XSLT snippets)
 
-Read the [cheatsheet](http://docs.emmet.io/cheat-sheet/).
+Todd Ditchendorf's (http://www.ditchnet.org/) made a collection of TextMate snippets for XSLT 1.1.
+URL : http://www.ditchnet.org/wp/2006/12/19/textmate-changed-my-life/
+
+I've made them available for Sublime Text.

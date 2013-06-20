@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>scope</key>
+	<string>text.xml.xsl</string>
+	<key>content</key>
+	<string>&lt;xsl:apply-templates${1: select="${2:Expr}"}${3: mode="${4:QName}"}&gt;
+	&lt;xsl:with-param name="${5:QName}" select="${6:Expr}"/&gt;
+&lt;/xsl:apply-templates&gt;</string>
+	<key>name</key>
+	<string>apply-templates with-param</string>
+	<key>tabTrigger</key>
+	<string>apply</string>
+	<key>uuid</key>
+	<string>692E5E25-8185-4BCA-9002-22345B89A73E</string>
+</dict>
+</plist>

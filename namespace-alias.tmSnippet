@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>scope</key>
+	<string>text.xml.xsl</string>
+	<key>content</key>
+	<string>&lt;xsl:namespace-alias stylesheet-prefix="${1:NCName|«#default»}" result-prefix="${2:NCName|«#default»}"/&gt;</string>
+	<key>name</key>
+	<string>namespace-alias</string>
+	<key>tabTrigger</key>
+	<string>namespace</string>
+	<key>uuid</key>
+	<string>24EF2942-D22D-4329-899E-8CECFBE555A1</string>
+</dict>
+</plist>

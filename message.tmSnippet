@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>scope</key>
+	<string>text.xml.xsl</string>
+	<key>content</key>
+	<string>&lt;xsl:message${1:terminate="${2:«yes»|«no»}"}&gt;
+	${3}
+&lt;/xsl:message&gt;</string>
+	<key>name</key>
+	<string>message</string>
+	<key>tabTrigger</key>
+	<string>message</string>
+	<key>uuid</key>
+	<string>47BA82F1-58C1-45F0-877B-FD4EBFF2423E</string>
+</dict>
+</plist>

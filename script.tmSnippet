@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>scope</key>
+	<string>text.xml.xsl</string>
+	<key>content</key>
+	<string>&lt;xsl:script implements-prefix="${1:NCName}" 
+	language="${2:«ecmascript»|«javascript»|«java»|QName}"
+	src="${3:uri}"
+	archive="${4:list-of-uris}"&gt;
+	${5}
+&lt;/xsl:script&gt;</string>
+	<key>name</key>
+	<string>script</string>
+	<key>tabTrigger</key>
+	<string>script</string>
+	<key>uuid</key>
+	<string>427B3171-E122-402E-BABD-A02C8AD1A2AC</string>
+</dict>
+</plist>

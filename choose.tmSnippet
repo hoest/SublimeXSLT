@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>scope</key>
+	<string>text.xml.xsl</string>
+	<key>content</key>
+	<string>&lt;xsl:choose&gt;
+	&lt;xsl:when test="${1:Expr}"&gt;
+		${2}
+	&lt;/xsl:when&gt;
+${3:	&lt;xsl:otherwise&gt;
+		${4}
+	&lt;/xsl:otherwise&gt;
+}&lt;/xsl:choose&gt;</string>
+	<key>name</key>
+	<string>choose</string>
+	<key>tabTrigger</key>
+	<string>choose</string>
+	<key>uuid</key>
+	<string>294D8939-33A4-4DA1-BA2E-82F3D8D29537</string>
+</dict>
+</plist>

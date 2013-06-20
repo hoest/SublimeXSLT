@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>scope</key>
+	<string>text.xml.xsl</string>
+	<key>content</key>
+	<string>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;xsl:stylesheet 
+	version="1.0" 
+	xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
+	xmlns:exsl="http://exslt.org/common" 
+	extension-element-prefixes="exsl"
+&gt;
+
+&lt;xsl:output method="xml" version="1.0" encoding="UTF-8" indent="yes"/&gt;
+
+&lt;xsl:template match="${1:Expr}"&gt;
+	${2}
+&lt;/xsl:template&gt;
+${3}
+&lt;/xsl:stylesheet&gt;</string>
+	<key>name</key>
+	<string>stylesheet exslt common</string>
+	<key>tabTrigger</key>
+	<string>style</string>
+	<key>uuid</key>
+	<string>13F2832D-9ED7-4C91-A990-EC5666FC701A</string>
+</dict>
+</plist>

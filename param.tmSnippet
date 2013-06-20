@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>scope</key>
+	<string>text.xml.xsl</string>
+	<key>content</key>
+	<string>&lt;xsl:param name="${1:QName}"${2: select="${3:Expr}"}/&gt;</string>
+	<key>name</key>
+	<string>param</string>
+	<key>tabTrigger</key>
+	<string>param</string>
+	<key>uuid</key>
+	<string>D85FD15F-6D01-4CC8-8F78-994348FF97F6</string>
+</dict>
+</plist>

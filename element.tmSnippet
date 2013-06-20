@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>scope</key>
+	<string>text.xml.xsl</string>
+	<key>content</key>
+	<string>&lt;xsl:element name="${1:QName}"${2: namespace="${3:uri}"}&gt;
+	${4}
+&lt;/xsl:element&gt;</string>
+	<key>name</key>
+	<string>element</string>
+	<key>tabTrigger</key>
+	<string>element</string>
+	<key>uuid</key>
+	<string>DA9E9BD5-3A88-440F-9205-77FB7FB653CE</string>
+</dict>
+</plist>

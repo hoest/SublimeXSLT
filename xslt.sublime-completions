@@ -1,0 +1,15 @@
+{
+  "scope": "text.xml.xsl",
+
+  "completions":
+  [
+    { "trigger": "cur", "contents": "current()" },
+    { "trigger": "doc", "contents": "document($0)" },
+    { "trigger": "elt", "contents": "element-available($0)" },
+    { "trigger": "format", "contents": "format-number($1, $2, $3)" },
+    { "trigger": "genid", "contents": "generate-id($0)" },
+    { "trigger": "key", "contents": "key($1, $2)" },
+    { "trigger": "prop", "contents": "system-property($0)" },
+    { "trigger": "unparsed", "contents": "unparsed-entity-uri($0)" }
+  ]
+}

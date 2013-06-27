@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <snippet>
   <content><![CDATA[
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet
 	version="1.0"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -13,7 +13,7 @@
 	}${5:xmlns:sets="http://exslt.org/sets"
 	}${6:xmlns:str="http://exslt.org/strings"
 	}extension-element-prefixes="exsl${7: date}${8: dynamic}${9: math}${10: regexp}${11: sets}${12: str}">
-	<xsl:output method="xml" version="1.0" encoding="UTF-8" indent="yes"/>
+	<xsl:output method="xml" version="1.0" encoding="utf-8" indent="yes"/>
 
 	<xsl:template match="${13}">
 		${14}

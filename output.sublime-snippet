@@ -13,6 +13,6 @@
 	}${14:doctype-system="${15:http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd}"
 	}${16:cdata-section-elements="${17}"} />
 ]]></content>
-  <tabTrigger>otherwise</tabTrigger>
+  <tabTrigger>output</tabTrigger>
   <scope>text.xml.xsl</scope>
 </snippet>

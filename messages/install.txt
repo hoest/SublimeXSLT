@@ -1,0 +1,7 @@
+# XSLT Snippets
+Thanks for installing the XSLT Snippets package.
+
+This package contains:
+- Sublime completions
+- Sublime language syntax (you need to choose XSLT)
+- Sublime snippets for 'document' and 'style'

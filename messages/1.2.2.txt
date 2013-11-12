@@ -1,0 +1,4 @@
+# Update 1.2.2
+- Removed most snippets and moved it to sublime-completions
+- Added a tmLanguage file for XSLT
+- Added messages

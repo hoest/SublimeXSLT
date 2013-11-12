@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<snippet>
-  <content>&lt;![CDATA[${1}]]&gt;</content>
-  <tabTrigger>cdata</tabTrigger>
-  <scope>text.xml.xsl</scope>
-</snippet>

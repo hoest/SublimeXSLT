@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<snippet>
-  <content><![CDATA[<xsl:apply-imports />]]></content>
-  <tabTrigger>applyimports</tabTrigger>
-  <scope>text.xml.xsl</scope>
-</snippet>

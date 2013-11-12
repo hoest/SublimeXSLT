@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<snippet>
-  <content><![CDATA[<xsl:text${1: disable-output-escaping="${2}"}>${0}</xsl:text>]]></content>
-  <tabTrigger>text</tabTrigger>
-  <scope>text.xml.xsl</scope>
-</snippet>

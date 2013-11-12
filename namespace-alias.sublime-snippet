@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<snippet>
-  <content><![CDATA[<xsl:namespace-alias stylesheet-prefix="${1}" result-prefix="${2}" />]]></content>
-  <tabTrigger>namespace</tabTrigger>
-  <scope>text.xml.xsl</scope>
-</snippet>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<snippet>
-  <content><![CDATA[<xsl:with-param name="${1}" select="${2}" />]]></content>
-  <tabTrigger>with</tabTrigger>
-  <scope>text.xml.xsl</scope>
-</snippet>

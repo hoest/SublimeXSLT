@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<snippet>
-  <content><![CDATA[<xsl:copy-of select="${1}" />]]></content>
-  <tabTrigger>copyof</tabTrigger>
-  <scope>text.xml.xsl</scope>
-</snippet>

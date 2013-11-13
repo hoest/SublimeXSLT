@@ -1,0 +1,9 @@
+{
+    "name": "Symbol List: Templates",
+    "scope": "text.xml.xsl meta.tag.xml.xsl.template.begin",
+    "settings": {
+        "showInSymbolList": 1,
+        "symbolTransformation": "s/^\\s*<xsl:template\\s+(.*)\\s*>/$1/"
+    },
+    "uuid": "0B6F39CC-AF39-46CD-85FB-7F895D14F04A"
+}

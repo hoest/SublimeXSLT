@@ -1,0 +1,5 @@
+# Update 1.2.3
+
+- Small fixes
+
+When you're using XSLT as default syntax, a restart may be necessary.

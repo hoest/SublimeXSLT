@@ -1,6 +1,6 @@
 {
     "name": "Symbol List: Templates",
-    "scope": "text.xml.xsl meta.tag.xml.xsl.template.begin",
+    "scope": "text.xml.xsl meta.tag.xml.xsl.template",
     "settings": {
         "showInSymbolList": 1,
         "symbolTransformation": "s/^\\s*<xsl:template\\s+(.*)\\s*>/$1/"

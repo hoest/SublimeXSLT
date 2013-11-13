@@ -9,25 +9,25 @@
     "name": "XSLT",
     "patterns": [
         {
-            "begin": "(<)((?:(xsl)((:)))(template))(?=(\\s[^>]*)?></\\2>)",
+            "begin": "(<)((xsl)(:)(template))(?=(\\s[^>]*)?></\\2>)",
             "beginCaptures": {
                 "1": {
                     "name": "punctuation.definition.tag.begin.xml.xsl.template"
+                },
+                "2": {
+                    "name": "entity.name.tag.xml.xsl.template"
                 },
                 "3": {
                     "name": "entity.name.tag.namespace.xml.xsl.template"
                 },
                 "4": {
-                    "name": "entity.name.tag.xml.xsl.template"
-                },
-                "5": {
                     "name": "punctuation.separator.namespace.xml.xsl.template"
                 },
-                "6": {
+                "5": {
                     "name": "entity.name.tag.localname.xml.xsl.template"
                 }
             },
-            "end": "(>)(<)(/)(?:(xsl)((:)))(template)(>)",
+            "end": "(>)(<)(/)((xsl)(:)(template))(>)",
             "endCaptures": {
                 "1": {
                     "name": "punctuation.definition.tag.end.xml.xsl.template"
@@ -39,10 +39,10 @@
                     "name": "punctuation.definition.tag.begin.xml.xsl.template"
                 },
                 "4": {
-                    "name": "entity.name.tag.namespace.xml.xsl.template"
+                    "name": "entity.name.tag.xml.xsl.template"
                 },
                 "5": {
-                    "name": "entity.name.tag.xml.xsl.template"
+                    "name": "entity.name.tag.namespace.xml.xsl.template"
                 },
                 "6": {
                     "name": "punctuation.separator.namespace.xml.xsl.template"
@@ -62,16 +62,16 @@
             ]
         },
         {
-            "begin": "(</?)(?:(xsl)((:)))(template)",
+            "begin": "(<)((xsl)(:)(template))",
             "captures": {
                 "1": {
                     "name": "punctuation.definition.tag.begin.xml.xsl.template"
                 },
                 "2": {
-                    "name": "entity.name.tag.namespace.xml.xsl.template"
+                    "name": "entity.name.tag.xml.xsl.template"
                 },
                 "3": {
-                    "name": "entity.name.tag.xml.xsl.template"
+                    "name": "entity.name.tag.namespace.xml.xsl.template"
                 },
                 "4": {
                     "name": "punctuation.separator.namespace.xml.xsl.template"
@@ -80,7 +80,7 @@
                     "name": "entity.name.tag.localname.xml.xsl.template"
                 }
             },
-            "end": "(/?>)",
+            "end": "(>)",
             "endCaptures": {
                 "1": {
                     "name": "punctuation.definition.tag.end.xml.xsl.template"
@@ -95,25 +95,25 @@
         },
         // other stuff
         {
-            "begin": "(<)((?:(xsl)((:)))([-_a-zA-Z0-9:]+))(?=(\\s[^>]*)?></\\2>)",
+            "begin": "(<)((xsl)(:)([-_a-zA-Z0-9:]+))(?=(\\s[^>]*)?></\\2>)",
             "beginCaptures": {
                 "1": {
                     "name": "punctuation.definition.tag.begin.xml.xsl"
+                },
+                "2": {
+                    "name": "entity.name.tag.xml.xsl"
                 },
                 "3": {
                     "name": "entity.name.tag.namespace.xml.xsl"
                 },
                 "4": {
-                    "name": "entity.name.tag.xml.xsl"
-                },
-                "5": {
                     "name": "punctuation.separator.namespace.xml.xsl"
                 },
-                "6": {
+                "5": {
                     "name": "entity.name.tag.localname.xml.xsl"
                 }
             },
-            "end": "(>)(<)(/)(?:(xsl)((:)))([-_a-zA-Z0-9:]+)(>)",
+            "end": "(>)(<)(/)((xsl)(:)([-_a-zA-Z0-9:]+))(>)",
             "endCaptures": {
                 "1": {
                     "name": "punctuation.definition.tag.end.xml.xsl"
@@ -125,10 +125,10 @@
                     "name": "punctuation.definition.tag.begin.xml.xsl"
                 },
                 "4": {
-                    "name": "entity.name.tag.namespace.xml.xsl"
+                    "name": "entity.name.tag.xml.xsl"
                 },
                 "5": {
-                    "name": "entity.name.tag.xml.xsl"
+                    "name": "entity.name.tag.namespace.xml.xsl"
                 },
                 "6": {
                     "name": "punctuation.separator.namespace.xml.xsl"
@@ -148,16 +148,16 @@
             ]
         },
         {
-            "begin": "(</?)(?:(xsl)((:)))([-_a-zA-Z0-9:]+)",
+            "begin": "(</?)((xsl)(:)([-_a-zA-Z0-9:]+))",
             "captures": {
                 "1": {
                     "name": "punctuation.definition.tag.begin.xml.xsl"
                 },
                 "2": {
-                    "name": "entity.name.tag.namespace.xml.xsl"
+                    "name": "entity.name.tag.xml.xsl"
                 },
                 "3": {
-                    "name": "entity.name.tag.xml.xsl"
+                    "name": "entity.name.tag.namespace.xml.xsl"
                 },
                 "4": {
                     "name": "punctuation.separator.namespace.xml.xsl"

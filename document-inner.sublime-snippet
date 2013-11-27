@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet>
+  <content><![CDATA[<xsl:document href="${1}" method="${2}" version="${3:1.0}" encoding="${4:utf-8}" indent="${5}"${6: omit-xml-declaration="${7}"}${8: standalone="${9}"}${10: media-type="${11:application/xml}"}${12: doctype-public="${13:-//W3C//DTD XHTML 1.0 Strict//EN}"}${14: doctype-system="${15:http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd}"}${16: cdata-section-elements="${17}"}>
+	${0}
+</xsl:document>]]></content>
+  <tabTrigger>doci</tabTrigger>
+  <scope>text.xml.xsl</scope>
+  <description>document (inner content)</description>
+</snippet>

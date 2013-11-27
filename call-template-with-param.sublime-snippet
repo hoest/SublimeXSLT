@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[<xsl:call-template name="${1}">
+	<xsl:with-param name="${2}" select="${3}"/>
+</xsl:call-template>]]></content>
+  <tabTrigger>callw</tabTrigger>
+  <scope>text.xml.xsl</scope>
+  <description>call-template (with-param)</description>
+</snippet>

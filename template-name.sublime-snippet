@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[<xsl:template name="${1}"${2: mode="${3}"}>
+	${0}
+</xsl:template>]]></content>
+  <tabTrigger>tn</tabTrigger>
+  <scope>text.xml.xsl</scope>
+  <description>template (name)</description>
+</snippet>

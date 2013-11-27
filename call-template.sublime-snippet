@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<xsl:call-template name="${1}" />]]></content>
+  <tabTrigger>call</tabTrigger>
+  <scope>text.xml.xsl</scope>
+  <description>call-template</description>
+</snippet>

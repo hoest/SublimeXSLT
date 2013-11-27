@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<xsl:number level="${1}" count="${2}" from="${3}" value="${4}" format="${5}" lang="${6}" letter-value="${7}" grouping-separator="${8}" grouping-size="${9}" />]]></content>
+  <tabTrigger>num</tabTrigger>
+  <scope>text.xml.xsl</scope>
+  <description>number</description>
+</snippet>

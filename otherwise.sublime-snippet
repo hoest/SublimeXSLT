@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<xsl:otherwise>${0}</xsl:otherwise>]]></content>
+  <tabTrigger>ot</tabTrigger>
+  <scope>text.xml.xsl</scope>
+  <description>otherwise</description>
+</snippet>

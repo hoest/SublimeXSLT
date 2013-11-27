@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<xsl:if test="${1}">${0}</xsl:if>]]></content>
+  <tabTrigger>if</tabTrigger>
+  <scope>text.xml.xsl</scope>
+  <description>if</description>
+</snippet>

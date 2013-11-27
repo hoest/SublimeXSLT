@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<xsl:with-param name="${1}">${0}</xsl:with-param>]]></content>
+  <tabTrigger>wpi</tabTrigger>
+  <scope>text.xml.xsl</scope>
+  <description>with-param (inner content)</description>
+</snippet>

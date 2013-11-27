@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<xsl:script implements-prefix="${1}" language="${2}" src="${3}" archive="${4}">${0}</xsl:script>]]></content>
+  <tabTrigger>scr</tabTrigger>
+  <scope>text.xml.xsl</scope>
+  <description>script</description>
+</snippet>

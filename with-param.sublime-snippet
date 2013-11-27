@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<xsl:with-param name="${1}" select="${2}" />]]></content>
+  <tabTrigger>wp</tabTrigger>
+  <scope>text.xml.xsl</scope>
+  <description>with-param</description>
+</snippet>

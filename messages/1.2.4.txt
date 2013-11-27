@@ -1,0 +1,6 @@
+# Update 1.2.4
+
+- Created snippets
+- Changed many snippet-tabTrigger, so please check them again!
+
+When you're using XSLT as default syntax, a restart may be necessary.

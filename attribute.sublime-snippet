@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<xsl:attribute name="${1}"${2: namespace="${3}"}>${0}</xsl:attribute>]]></content>
+  <tabTrigger>attr</tabTrigger>
+  <scope>text.xml.xsl</scope>
+  <description>attribute</description>
+</snippet>

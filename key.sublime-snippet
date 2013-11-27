@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<xsl:key name="${1}" match="${2}" use="${3}" />]]></content>
+  <tabTrigger>key</tabTrigger>
+  <scope>text.xml.xsl</scope>
+  <description>key</description>
+</snippet>

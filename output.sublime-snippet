@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<xsl:output method="${1}" version="${2:1.0}" encoding="${3:utf-8}" indent="${4}"${5: omit-xml-declaration="${6}"}${7: standalone="${8}"}${9: media-type="${10:application/xml}"}${11: doctype-public="${12:-//W3C//DTD XHTML 1.0 Strict//EN}"}${13: doctype-system="${14:http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd}"}${15: cdata-section-elements="${16}"} />]]></content>
+  <tabTrigger>out</tabTrigger>
+  <scope>text.xml.xsl</scope>
+  <description>output</description>
+</snippet>

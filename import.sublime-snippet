@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<xsl:import href="${1}" />]]></content>
+  <tabTrigger>imp</tabTrigger>
+  <scope>text.xml.xsl</scope>
+  <description>import</description>
+</snippet>

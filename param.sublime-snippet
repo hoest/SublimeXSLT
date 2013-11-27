@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA["<xsl:param name="${1}"${2: select="${3}"} />]]></content>
+  <content><![CDATA[<xsl:param name="${1}"${2: select="${3}"} />]]></content>
   <tabTrigger>par</tabTrigger>
   <scope>text.xml.xsl</scope>
   <description>param</description>

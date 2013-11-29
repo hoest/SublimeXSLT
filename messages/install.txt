@@ -7,4 +7,4 @@ This package contains:
 - Sublime snippets
 
 More info:
-https://github.com/hoest/SublimeXSLT/edit/master/README.md
+https://github.com/hoest/SublimeXSLT/blob/master/README.md

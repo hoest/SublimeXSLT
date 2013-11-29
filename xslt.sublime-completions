@@ -4,7 +4,7 @@
   "completions":
   [
     // attribute-completions
-    { "trigger": "cdata", "contents": "&lt;![CDATA[${1}]]&gt;" },
+    { "trigger": "cdata", "contents": "<![CDATA[${1}]]>" },
     { "trigger": "match", "contents" : "match=\"${1}\"" },
     { "trigger": "mode", "contents" : "mode=\"${1}\"" },
     { "trigger": "name", "contents" : "name=\"${1}\"" },

@@ -6,7 +6,7 @@ Have fun!
 
 ## Completions
 
-- "cdata": `&lt;![CDATA[${1}]]&gt;`
+- "cdata": `<![CDATA[${1}]]>`
 - "match" : `match=\"${1}\"`
 - "mode" : `mode=\"${1}\"`
 - "name" : `name=\"${1}\"`

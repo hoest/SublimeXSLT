@@ -7,13 +7,13 @@ Have fun!
 ## Completions
 
 - "cdata": `<![CDATA[${1}]]>`
-- "match" : `match=\"${1}\"`
-- "mode" : `mode=\"${1}\"`
-- "name" : `name=\"${1}\"`
-- "namespace" : `namespace=\"${1}\"`
-- "select" : `select=\"${1}\"`
-- "test" : `test=\"${1}\"`
-- "use-attribute-sets" : `use-attribute-sets=\"${1}\"`
+- "match" : `match="${1}"`
+- "mode" : `mode="${1}"`
+- "name" : `name="${1}"`
+- "namespace" : `namespace="${1}"`
+- "select" : `select="${1}"`
+- "test" : `test="${1}"`
+- "use-attribute-sets" : `use-attribute-sets="${1}"`
 - "current": `current()`
 - "document": `document($0)`
 - "element-available": `element-available($0)`

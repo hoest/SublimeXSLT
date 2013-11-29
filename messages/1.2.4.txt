@@ -2,5 +2,6 @@
 
 - Created snippets
 - Changed many snippet-tabTrigger, so please check them again!
+  (more info: https://github.com/hoest/SublimeXSLT/edit/master/README.md)
 
 When you're using XSLT as default syntax, a restart may be necessary.

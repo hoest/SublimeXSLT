@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[<xsl:processing-instruction name="{$1}">${0}</xsl:processing-instruction>]]></content>
+  <content><![CDATA[<xsl:processing-instruction name="${1}">${0}</xsl:processing-instruction>]]></content>
   <tabTrigger>proc</tabTrigger>
   <scope>text.xml.xsl</scope>
   <description>processing-instruction</description>

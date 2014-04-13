@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[<xsl:message${1: terminate="${2"}>${0}</xsl:message>]]></content>
+  <content><![CDATA[<xsl:message${1: terminate="${2}"}>${0}</xsl:message>]]></content>
   <tabTrigger>msg</tabTrigger>
   <scope>text.xml.xsl</scope>
   <description>message</description>

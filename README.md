@@ -163,7 +163,7 @@ Have fun!
 
 ### msg
 ```
-<xsl:message${1: terminate="${2"}>${0}</xsl:message>
+<xsl:message${1: terminate="${2}"}>${0}</xsl:message>
 ```
 
 ### nam
@@ -203,7 +203,7 @@ Have fun!
 
 ### proc
 ```
-<xsl:processing-instruction name="{$1}">${0}</xsl:processing-instruction>
+<xsl:processing-instruction name="${1}">${0}</xsl:processing-instruction>
 ```
 
 ### scr
